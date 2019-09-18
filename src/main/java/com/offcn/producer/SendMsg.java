@@ -21,7 +21,10 @@ public class SendMsg {
         jmsMessagingTemplate.convertAndSend("queue_offcn","Hello World");
         return "hello";
     }
-
+    //注释
+    public void test(){
+        System.out.println("test");
+    }
     @RequestMapping("/send2")
     @ResponseBody
     public String send2(){

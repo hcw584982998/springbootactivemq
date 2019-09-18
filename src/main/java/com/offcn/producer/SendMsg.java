@@ -25,6 +25,9 @@ public class SendMsg {
     public void test(){
         System.out.println("test");
     }
+    public void add(){
+        System.out.println("add");
+    }
     @RequestMapping("/send2")
     @ResponseBody
     public String send2(){
